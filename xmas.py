@@ -36,36 +36,12 @@ nome = raw_input("""
 
 """ + "HO, HO, HO! Qual è il tuo nome? ")
 
-hero = ["luk", "ian", "lei", "obi", "d3b", "c1p", "r2d", "c3p", "ana"] #i primi tre caratteri dei personaggi più comuni di SW
+hero = ["luk", "ian", "han" "lei", "obi", "d3b", "c1p", "r2d", "c3p", "ana"] #i primi tre caratteri dei personaggi più comuni di SW
 
 def messaggio():
-	for x in hero:
-		if x == nome[0:3].lower():
-			return """
-
-               c==o
-             _/____\_
-      _.,--'" ||^ || "`z._
-     /_/^ ___\||  || _/o\ "`-._
-   _/  ]. L_| || .||  \_/_  . _`--._
-  /_~7  _ . " ||. || /] \ ]. (_)  . "`--.
- |__7~.(_)_ []|+--+|/____T_____________L|
- |__|  _^(_) /^   __\____ _   _|
- |__| (_){_) J ]K{__ L___ _   _]
- |__| . _(_) \\v     /__________|________
- l__l_ (_). []|+-+-<\^   L  . _   - ---L|
-  \__\    __. ||^l  \Y] /_]  (_) .  _,--'
-    \~_]  L_| || .\ .\\\\/~.    _,--'"
-     \_\ . __/||  |\  \`-+-<'"
-       "`---._|J__L|X o~~|[\\\\
-              \____/ \___|[//
-               `--'   `--+-' 
-	
-    """ + "Ciao " + nome + " che la Forza sia con te anche a Natale!" + """
-"""
-			break
-		else:
-			return """
+  for x in hero:
+    if x is nome[0:3].lower():
+      return """
                  /\\
             .--._/  \_.--.
              `)        (`
@@ -98,5 +74,28 @@ def messaggio():
 
        """ + "Ciao " + nome + " buon Natale!" + """
 """
+    else:
+      return """
 
+               c==o
+             _/____\_
+      _.,--'" ||^ || "`z._
+     /_/^ ___\||  || _/o\ "`-._
+   _/  ]. L_| || .||  \_/_  . _`--._
+  /_~7  _ . " ||. || /] \ ]. (_)  . "`--.
+ |__7~.(_)_ []|+--+|/____T_____________L|
+ |__|  _^(_) /^   __\____ _   _|
+ |__| (_){_) J ]K{__ L___ _   _]
+ |__| . _(_) \\v     /__________|________
+ l__l_ (_). []|+-+-<\^   L  . _   - ---L|
+  \__\    __. ||^l  \Y] /_]  (_) .  _,--'
+    \~_]  L_| || .\ .\\\\/~.    _,--'"
+     \_\ . __/||  |\  \`-+-<'"
+       "`---._|J__L|X o~~|[\\\\
+              \____/ \___|[//
+               `--'   `--+-' 
+  
+    """ + "Ciao " + nome + " che la Forza sia con te anche a Natale!" + """
+"""
+			
 print messaggio()
