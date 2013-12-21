@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 s="cmVxdWlyZSAnemxpYicKcmVxdWlyZSAnYmFzZTY0Jwpjb2RlID0gPDxET0MKZUp4MVZXMnZva1lVL2
 03aWY1amUrMkczc2JuSXkwVnB1bWtRUlZFUkVFR2xhVFlEREMvS2k4RHdJcHY5WWYzY1AxYndkdE50ZGp
 jaApuRE56bnZNd3czTm16  d      k       5       Q       U     kZua2hCMG1CRW9xa0pmMm
