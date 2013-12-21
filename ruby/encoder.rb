@@ -47,41 +47,43 @@ s="*****************************************************************************
 *********************  *      *        ****** *       *     *********************
 *********************     *       *    ******     *       * *********************
 *********************  *      *        ****** *       *     *********************
-*******************************************************************************##
+*********************************************************************************
+*********************************************************************************
+********************************************************************************#
 EOF
 
 code = <<'EOF'
 require 'zlib'
 require 'base64'
 code = <<DOC
-eJx1lWuvm0YTx99b8nfY5+RFUlEdjOHYpmpUYWxuNgaMwTZVFXFZLjZ3loup+t0fcFolbRIJMbs7
-M3/Y/e3uvAOC7d7BNatLwIZlVKHErsD8TpDTyTtwrFPQRigEbpYkduqBl7J2HqAbYl5L5wX4ZZYM
-vrTKYjidjBlKGQVRasfxA7RlhBBMQZSC/IHCLAVDqo6gb6cZUGEOx3g1KxH0xpin8vBs7DSCMQSn
-0s6H5ihbwqKOSgje93HkvP+q79gVXFDvxxgBlhn4CH5/iev7y8/gJbLT0cQwGk3mPI1HOqNxiXw0
-5dx79shnz07tlz9GJQ/6IIFVZQdBlH1IswT+NJ0AEPlg/MZrlLpx7cHfwOgZHQC8vPuzQnb5qbXL
-6lNQQoiiNPgLsJGdgXd/jnF/ATeEILYBl5W9DarIHpcNIAjsdPTY4GAjO4b/exkVYVx9Uf6BnlMP
-+f9KSr3p5Pn6PIUQxnE2Op6NTwh2aFifX3/dKOwQJz1MY8nVHcvIpIEtfJzt7ttAwDMmW6AC1Wiu
-Lzw2nJWmBcOmoHENxxKVE927pbONyVT++jb3+zXDounEdfa3zJz5QRMGqUfvRZo5G/lBmDsVcy12
-BWMFOGKkaO0yBLvX9traOD3mK4nfFm211hl3rr1hssMcNPk0nZxWoTczT4aSMK1IixSfq8kh253F
-0jiohoTqgCLmxqNm6XvI0VxfMM0hqOV0b1NvrtWVsscafLgXjB3ipxMxbgRV73f6JjQaW/O6A2XN
-eoHsCr0MXGkVzo7EbndaHmIj380luk4dKEf02km2XGeIyu5+lrHFbXdAWjOd8BF+wEW83PdiHKuX
-5ZbHCcFSLt2p8DyBnUOjOStnPxXd9Eb5Qr4REkgJ0rKp9iS37CAF5XnrNzO6EZnpRF1iRHZbfZxO
-nlAA8OBw0PIySqIPX6j99C+s3260MfHb0W+Ad55xIsqWGIAzKrZZSfsz6skDb+X4fVNUhrKn9W5j
-zpT5JoupZjlLsauctJXFev2blGMWc8O5Xo0xZzrpFruHeNfJqrbJWKRQciWowiJq6B6uUNfSDFtc
-V7HJ6CxaJ3Z4XyDD7beUXqwP8SxK0P5gLZjQIJw3fpjY43rZ+mR/NDE474OLaW5XRLYIZpyC9EXU
-8bh3wmceYo8n2bto25tYmSyrHtfNTWbIFU8ZakIxWEce0f06nSQHjTgKy0vow3avcYSZkybhi4+z
-5cPOaeaVXuhHNomH3aUUoo4WZa3Ij9JfuzvuilZypxJQkJyCdokBUXtVg+QuB30pQS1id2aVd+xJ
-1x62f3W17HJ1Yo/ciU2NrCJYVPTFwlmJWqgbt1flrZDUQruQZDLctGwyndxy5ruwf4DvH/IAfGb/
-NfEfc0b321wZD3bo10c38Ep+JoVkcOYV7a4vTMf24sr3k148bdi1WHGYsMJXUGg0ldvs3sqdpJiG
-Fp+zfrho6e1RXao0z5px2xmcdwyNzYU4hA7ZWHbD3ylnq84dzU/mvb/EcZK6oDPNbpYXanWuzdrC
-3qyTvdpqvJ5PJwx7ZHezBJ24zGKirbm1jy1HcfaCarLCwRy2YVorTFvl7TYz4JJcXLkjiRGdjutb
-ul3JmS1TnXjri0suTycaGv5rL6YitpNSse2rrLp1eyVcVXyuPcRLdl3XWtEFxSMyoocqK9FJu9QV
-tCniHG0dts8U3bO08xt6iNMJzl40SBcPmpewpCoktVueQ15sZF+nUbRxxEiFMcNaHfPxuwS/y+0z
-ta+iEKxQ9qwm1lDJfvlFTP3YRvA1he1QV57tD+tnTXsds7yh8XfOF8lBKUWfL/VXNxyUp5OxIgxb
-IICo+mcor1H13yr2f9fLikg=
+eJx1VW2vokYU/m7if5je+2G3sbnIy0VpumkQRVEREEGlaTYDDC/Ki8DwIpv9Yf3cP1bwdtNtdjch
+nDNznvMww3NmzvNPRFnkhB0mBEoqkJf2fTgYDp7BCjpXcE7LHAhBHhY4hgWgriTdx/ZlAuoQB8BJ
+4xgmLnjq80DTYV5y+wl4eRp3saRII/TGpuShHyYwiu6gzkOMUQLCBNzuOEgT0KXqGHkwSYGKbqjH
+q2mOkdtjHszdM4dJiCIEDjm8dW5Pm6OsDHME3rVRaL/7amzDArHMux6zQnkKPoA/nqLy+vQLeAph
+0pvgzUQo7E1qP4xL271xyFtvcsp9jOjHCCbw6U/wHIJbHsYhwN1nHJjDbid5CFzUzaO8SBPo+50b
+/v1X/2vKpAuFQD/2C3GRB2JUFD0ifZ+kMfp5OAAg9EC/xJcwcaLSRb+DPvLH+OWF+vPFTevE6bbS
+4wB4ev5UYJh/rGFefPRzhHCY+J+BEMIUPH/q0z4DJ0AggkBM8xaCIoS9CAAjAJM+AsEOYhihn556
+RhR9xfwDPrvs8v+XlLjDweP1tqMARVHaBx7OR4wa3P3t336bK0KHW99NYyKWjcDLtDFiPUJorgt/
+RaR8yuIMl5jSWVcIxrlpoaDKOEIjRrEqSs7V0oXK5AtvdqG8dsYLeDhw7O0lNceeXwV+4nJbieOP
+xm23ouyCP2ebjLd8AvPrcObwpLDVttrMONyp6Xq5yOpipvMOpb2OZJvfafJhODhMA3dsHgwl5muJ
+k5jlTY136eYo5cZONda49BmSMu6lwF0DkRPbjK92fiknW8i8OlaTy65gLIPtytjg5XAgRdVK1duN
+Pg+MCmpus2Oscbuim0zPfWc9DcZ7crM5THaRcdtQa65MbCSH3MyOF2JjSMrmepRH7GWzw1o1HCxD
+YkdIRL5tpShST5PFkiBXlnJqDpnrrgQKGdVROXqJ5CQXxlvd5qsYMav1pCq2tDhpEINkqvaqMVdJ
+/HCgTkZkepl+GA4eooCuWrvafJTx+/9U+/l/sn5baH3it7PfCN64xoHMa7ITnFdH8+l6e8QtvVta
+N+I6zwpD2XJ6MzfHCjVPI6aajJPRWY7rwhLc9nV9G1n8hRBbNRrZw0HDbu7SVaeLEtKRxOD4TDKZ
+RZbI2Z2RriXpiD1PI5PXBTyLYXBlseG0C0bPZrtoHMZ4u7NYPjBI+3XZbex+Pi08ut2bI0S1/sk0
+F1MyZf2xqGCdDZsl4R6IsYuF/UF2T9riIhWmIKj7WXWReXq6ZAw1ZvhRQ+/x9TwcxDuN3K8mp8BD
+9VYTSfNGm6Qn3Y+Whxq7ogo90/dCHHXVpWSSjtm8VOR77s2cjXjGU7lRSbRa2xnnkJ1E9Vn146vs
+t/kaaaGwMYtbIxx07Q69s6Olp7MdufRGqkpsZT5bcCeLENYMq86dVpUXq7hc1exapoN5LcTDweXG
+f1fsH8j3RXkA3rT/WvEf64yvF0rpD3bglXvHd/PleB3Q/nGpaFedNW3oRoXnxa10mAszqRBHqykx
+RatKU8X55jXfrBXT0KJj2nbXNrfYqxOVWwpmVDeG6O4DY34id4FNVxasllfGXqiUrXkx1XoTgqCZ
+Ez5ywnxyYqbH0iyt0at1gNOFttRvwwEv7IXNOMYHMbX4cGEu4L4WGRGyTJVm9sgWKr62gqRWXi9j
+A01o9izu6RHZ6IS+4OqpnEKZaaRLm51u8nCg4W5dWymRRpt1ItVtkRaXZqsE02J50+7SKT3PSi1r
+/OweGuFdlZXwoJ3KAkGGPIYLW2hTRXct7fiK79JwQAgnDXHZnVuuR3GRrdVmcgyWUiV7OofDuS2F
+Kop4wWr4D99V8Lu6fTmzX+EwKnD6aC9W1xl//VVKvAhi9JKgums0D//97NEjX/ost3P+zfmPtGNK
+8Nu1/uIEHfNw0PeErgh8hIsvU7cSF9+2tX8Ap7asoQ==
 DOC
 eval Zlib::Inflate.new.inflate(Base64.decode64(code))
-# filler #####################
 EOF
 
 hexcode = [code].pack("m*").delete("\n")

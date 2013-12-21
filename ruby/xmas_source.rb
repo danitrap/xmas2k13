@@ -9,10 +9,10 @@
 require 'zlib'
 require 'base64'
 
-Hero = ["luk", "ian", "lei", "obi", "d3b", "c1p", "r2d", "c3p", "ana"] #i primi tre caratteri dei personaggi più comuni di SW
+Hero = ["luk", "ian", "han", "lei", "obi", "d3b", "c1p", "r2d", "c3p", "ana"] #i primi tre caratteri dei personaggi più comuni di SW
 
 def messaggio(nome)
-  if Hero.include? nome
+  if Hero.include? nome[0..2].downcase
     "#{star_wars_greeting} Ciao #{nome} che la Forza sia con te anche a Natale!"
   else
     "#{greeting} Ciao #{nome} buon Natale!"
